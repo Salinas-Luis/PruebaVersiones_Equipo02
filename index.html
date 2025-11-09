@@ -7,11 +7,24 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    Aqui vamos a jugar a que equio la riega primero hola
+    <div class="container-main">
+        <h1>Adivinador de numeros</h1> <br>
+        <h2>Escribe un numero en el que estes pensando</h2>
+        <h2>Cabrera Ruiz Dereck Alexander</h2>
+        <h2>Hernandez Carmona Luis Emiliano</h2>
+        <h2>Ruiz Vazquez Maximo</h2>
+        <h2>Salinas Ramos Luis Miguel</h2> <br>
+
     <form action="" method="get" name="formulario">
-        <label for="">Prueba de fuegoxd</label>
-        <input type="text" name="nombre" id="nombre">
-        <button>Da click aqui</button>
+        <label for="text">Prueba de fuegoxd</label>
+        <input type="number" name="numero" id="num">
+        <button type="button" class="adivinanza-boton" onclick="adivinar()">Enviar</button>
+        <p id="adivinanza-out" class="adivinanza-out">--Resultado--</p>
     </form>
+    </div>
+    <footer>
+        <a href="./pag2.html">Pagina 2</a>
+    </footer>
+    <script src="./js/funciones.js"></script>
 </body>
 </html>

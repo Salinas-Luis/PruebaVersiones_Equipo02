@@ -11,16 +11,15 @@ body{
     text-align: center;
 }
 
-.container-form{
-    background-color: #2c3e50;
-    border-radius: 10px;
+.container-main{
+     background-color: #34495e;
+    border-radius: 12px;
     width: 40rem;
-    height: 15rem;
-    margin: 6rem auto auto auto;
+    margin: 4rem auto;
     color: #fff;
     box-shadow: 5px 5px 10px #00000080;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,4 +28,99 @@ body{
 
 button{
     margin: 6px;
+}
+
+.container-main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f1c40f;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.container-main h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #bdc3c7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    color: #ecf0f1;
+}
+
+input[type="number"] {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 10rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.adivinanza-boton {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.adivinanza-boton:hover {
+    background-color: #2ecc71;
+}
+
+.adivinanza-out {
+    font-size: 1.1rem;
+    color: #e67e22;
+    margin-top: 1rem;
+    background-color: #fff3e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.problema-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.output_problemas {
+    font-size: 1.1rem;
+    color: #e67e22;
+    margin-top: 1rem;
+    background-color: #fff3e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #3498db;
 }
